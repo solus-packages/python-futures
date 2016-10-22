@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>python-futures</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Backport of the concurrent.futures package from Python 3.2</Summary>
+        <Description xml:lang="en">Backport of the concurrent.futures package from Python 3.2
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-futures</Name>
+        <Summary xml:lang="en">Backport of the concurrent.futures package from Python 3.2</Summary>
+        <Description xml:lang="en">Backport of the concurrent.futures package from Python 3.2
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/_base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/process.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/process.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/thread.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/thread.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/pbr.json</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.0.5-py2.7.egg-info/top_level.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-22</Date>
+            <Version>3.0.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>

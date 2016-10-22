@@ -1,0 +1,16 @@
+name       : python-futures
+version    : 3.0.5
+release    : 1
+source     :
+    - https://pypi.python.org/packages/55/db/97c1ca37edab586a1ae03d6892b6633d8eaa23b23ac40c7e5bbc55423c78/futures-3.0.5.tar.gz : 0542525145d5afc984c88f914a0c85c77527f65946617edb5274f72406f981df
+license    : BSD-2-Clause
+component  : programming.python
+summary    : Backport of the concurrent.futures package from Python 3.2
+description: |
+    Backport of the concurrent.futures package from Python 3.2
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup    
+install    : |
+    %python_install
