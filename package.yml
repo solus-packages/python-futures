@@ -1,8 +1,8 @@
 name       : python-futures
-version    : 3.2.0
-release    : 2
+version    : 3.3.0
+release    : 3
 source     :
-    - https://github.com/agronholm/pythonfutures/archive/3.2.0.tar.gz : fc959e162a3ea775c827f8a5e1810ecd175dbb986c2b16864b47fe491ad6950b
+    - https://github.com/agronholm/pythonfutures/archive/3.3.0.tar.gz : 0e2f48368adfa176311654ef85e9010b6ce785b407d5dc9d1f04d248bd18f87e
 license    : Python-2.0
 component  : programming.python
 summary    : Backport of the concurrent.futures package from Python 3.2

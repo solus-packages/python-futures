@@ -2,15 +2,15 @@
     <Source>
         <Name>python-futures</Name>
         <Packager>
-            <Name>Ewan Paterson</Name>
-            <Email>ewan.paterson@hotmail.co.uk</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Python-2.0</License>
         <PartOf>programming.python</PartOf>
         <Summary xml:lang="en">Backport of the concurrent.futures package from Python 3.2</Summary>
         <Description xml:lang="en">Backport of the concurrent.futures package from Python 3.2
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>python-futures</Name>
@@ -29,20 +29,20 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/process.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/thread.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/concurrent/futures/thread.pyc</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.2.0-py2.7.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.2.0-py2.7.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.2.0-py2.7.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.2.0-py2.7.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.2.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.3.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.3.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.3.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.3.0-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/futures-3.3.0-py2.7.egg-info/top_level.txt</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-02-04</Date>
-            <Version>3.2.0</Version>
+        <Update release="3">
+            <Date>2019-07-26</Date>
+            <Version>3.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ewan Paterson</Name>
-            <Email>ewan.paterson@hotmail.co.uk</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
